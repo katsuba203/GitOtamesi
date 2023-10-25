@@ -31,6 +31,7 @@
             textBox1 = new TextBox();
             textBox2 = new TextBox();
             textBox3 = new TextBox();
+            textBox4 = new TextBox();
             SuspendLayout();
             // 
             // textBox1
@@ -42,23 +43,31 @@
             // 
             // textBox2
             // 
-            textBox2.Location = new Point(275, 108);
+            textBox2.Location = new Point(245, 102);
             textBox2.Name = "textBox2";
-            textBox2.Size = new Size(125, 27);
+            textBox2.Size = new Size(70, 27);
             textBox2.TabIndex = 1;
             // 
             // textBox3
             // 
-            textBox3.Location = new Point(472, 111);
+            textBox3.Location = new Point(321, 102);
             textBox3.Name = "textBox3";
             textBox3.Size = new Size(125, 27);
             textBox3.TabIndex = 2;
+            // 
+            // textBox4
+            // 
+            textBox4.Location = new Point(480, 102);
+            textBox4.Name = "textBox4";
+            textBox4.Size = new Size(125, 27);
+            textBox4.TabIndex = 3;
             // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(textBox4);
             Controls.Add(textBox3);
             Controls.Add(textBox2);
             Controls.Add(textBox1);
@@ -73,5 +82,6 @@
         private TextBox textBox1;
         private TextBox textBox2;
         private TextBox textBox3;
+        private TextBox textBox4;
     }
 }
