@@ -8,10 +8,14 @@ namespace GitOtamesi
 {
     internal class dentaku
     {
-        public int pushequal(string num1, string kigou, string num2)
+        public int pushequal(string num1,string kigou,string num2)
         {
-           
-            return 7;
+            int ans=0;
+            if (kigou == "+")
+            {
+                ans=int.Parse(num1)+ int.Parse(num2);
+            }
+            return ans;
         }
     }
 }
