@@ -17,5 +17,9 @@ namespace GitOtamesi
             }
             return ans;
         }
+        public int test()
+        {
+            return 0;
+        }
     }
 }
