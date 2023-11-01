@@ -9,6 +9,7 @@ namespace GitOtamesi
 
         private void button1_Click(object sender, EventArgs e)
         {
+            //test
             dentaku dentaku = new dentaku();
             textBox4.Text= dentaku.pushequal(textBox1.Text, textBox2.Text,textBox3.Text).ToString();
         }
