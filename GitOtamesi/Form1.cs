@@ -11,7 +11,7 @@ namespace GitOtamesi
         {
             //test
             dentaku dentaku = new dentaku();
-            textBox4.Text= dentaku.pushequal(textBox1.Text, textBox2.Text,textBox3.Text).ToString();
+            textBox4.Text = dentaku.pushequal(textBox1.Text, textBox2.Text, textBox3.Text).ToString();
         }
     }
 }
